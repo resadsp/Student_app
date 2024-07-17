@@ -1,0 +1,92 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8" />
+    <title>Stampa</title>
+    <style>
+        * {
+            font-family: sans-serif;
+        }
+        #report_header {
+            background-color: rgb(219, 147, 206);
+            padding: 10px;
+        }
+        #report_header h1 {
+            color: darkorchid;
+            margin: 0;
+        }
+
+        #report_header h2 {
+            color: rgb(26, 26, 157);
+            margin: 0;
+            margin-top: 8px;
+        }
+
+        table {
+            border-collapse: collapse;
+            border: 1px solid black;
+            width: 100%;
+            font-size: 15px;
+            text-align: center;
+        }
+
+        th, td {
+            padding: 5px;
+            border: 1px solid black;
+        }
+
+        thead tr {
+            background-color: pink;
+        }
+        
+        .gl th{
+            background-color: darkgrey;
+        }
+
+    </style>
+</head>
+<body>
+    <div style="float: left; padding-bottom:40px;">
+       <img height="120" src="data:static/assets/jpg;base64,{{company_logo}}"
+        alt="Company icon"  /></div>
+        </div> 
+
+                <table class="gl">
+                <tr><td colspan=2><b>Podaci o studentu:</b></td></tr>
+                <tr><th>Ime</th><td>{{ime}}</td></tr>
+                <tr><th>Prezime</th><td>{{prezime}}</td></tr>
+                <tr><th>Pol</th><td>{{pol}}</td></tr>
+                <tr><th>Datum rodjenja</th><td>{{datum_rodjenja}}</td></tr>
+                <tr><th>JMBG</th><td>{{jmbg}}</td></tr>
+                <tr><th>Broj telefona</th><td>{{broj_telefona}}</td></tr>
+                <tr><th>Bracno stanje</th><td>{{bracno_stanje}}</td></tr>
+                <tr><th>Grad/Opstina</th><td>{{grad_opstina}}</td></tr>
+                <tr><th>Postanski broj</th><td>{{br_poste}}</td></tr>
+                <tr><th>Region</th><td>{{regija}}</td></tr>
+                <tr><th>Ulica</th><td>{{ulica}}</td></tr>
+                <tr><th>Broj kuce</th><td>{{br_kuce}}</td></tr>
+                <tr><td colspan=2><b>Podaci o roditeljima:</b></td></tr>
+                <tr><th>Ime oca</th><td>{{ime_oca}}</td></tr>
+                <tr><th>Zanimanje oca</th><td>{{zanimanje_oca}}</td></tr>
+                <tr><th>Radno stanje oca</th><td>{{radno_stanje_oca}}</td></tr>
+                <tr><th>Ime majke</th><td>{{ime_majke}}</td></tr>
+                <tr><th>Zanimanje majke</th><td>{{zanimanje_majke}}</td></tr>
+                <tr><th>Radno stanje majke</th><td>{{radno_stanje_majke}}</td></tr>
+                <tr><th>Devojacko prezime majke</th><td>{{dev}}</td></tr>
+                <tr><td colspan=2><b>Podaci o srednjem obrazovanju:</b></td></tr>
+                <tr><th>Naziv srednje skole</th><td>{{naziv_skole}}</td></tr>
+                <tr><th>Vrsta srednje skole</th><td>{{Vrsta_s}}</td></tr>
+                <tr><th>Smer</th><td>{{smer}}</td></tr>
+                <tr><th>Godina upisa</th><td>{{godina_upisa}}</td></tr>
+                <tr><th>Trajanje srednje skole</th><td>{{trajanje}}</td></tr>
+                <tr><th>Grad/Opstina skole</th><td>{{grad_skole}}</td></tr>
+                </table>
+              
+            </main>
+        
+
+<footer>
+
+</footer>
+</body>
+</html>

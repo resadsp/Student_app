@@ -1,0 +1,4 @@
+Pillow
+path
+python-dotenv
+mysql-connector-python 
